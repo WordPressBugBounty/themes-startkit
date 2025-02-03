@@ -5,7 +5,7 @@ function startkit_setup() {
 	/**
 	 * Define Theme Version
 	 */
-	define( 'STARTKIT_THEME_VERSION', '14.2' );
+	define( 'STARTKIT_THEME_VERSION', '14.3' );
 	
 	/*
 	 * Make theme available for translation.
