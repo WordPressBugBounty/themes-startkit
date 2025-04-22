@@ -5,7 +5,7 @@ function startkit_setup() {
 	/**
 	 * Define Theme Version
 	 */
-	define( 'STARTKIT_THEME_VERSION', '15.5' );
+	define( 'STARTKIT_THEME_VERSION', '15.6' );
 	
 	/*
 	 * Make theme available for translation.
@@ -101,6 +101,8 @@ function startkit_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+	
+	require( get_template_directory() . '/inc/customize/customizer_recommended_plugin.php');
 }
 endif;
 add_action( 'after_setup_theme', 'startkit_setup' );
@@ -190,7 +192,7 @@ require_once get_template_directory() . '/inc/sanitization.php';
 /**
  * Called all the Customize file.
  */
-require( get_template_directory() . '/inc/customize/customizer_recommended_plugin.php');
+
 require( get_template_directory() . '/inc/customize/customizer_import_data.php');
 require( get_template_directory() . '/inc/customize/startkit-blog.php');
 require( get_template_directory() . '/inc/customize/startkit-header.php');
