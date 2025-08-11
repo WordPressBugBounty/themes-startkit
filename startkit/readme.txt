@@ -4,8 +4,8 @@ Contributors: Nayrathemes
 Requires at least: 4.7.3
 Tested up to: 6.8.1
 Requires PHP: 5.6
-Stable tag: 18.3
-Version: 18.3
+Stable tag: 18.5
+Version: 18.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, entertainment, portfolio, editor-style, grid-layout
@@ -131,6 +131,12 @@ All other Images have been used in images folder, Created by Nayra Themes. Also 
 
 
 == Changelog ==
+
+@version 18.5
+* Padding Fixed
+
+@version 18.4
+* Block Style Issue Fixed
 
 @version 18.3
 * Block Style Improvement
