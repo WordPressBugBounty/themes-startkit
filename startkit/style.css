@@ -4,7 +4,7 @@ Theme URI: https://www.nayrathemes.com/startkit-free/
 Author: Nayra Themes
 Author URI: https://www.nayrathemes.com/
 Description: StartKit is a unique, clean and professional-looking WordPress theme, perfect for all online digital business. A great variety of layouts and styles allows the creation of different structures and satisfies any specific requirement. The frontend and backend features are focused ease of use so that visitors can get the best user experience. View the demo of StartKit Pro https://www.nayrathemes.com/demo/pro/?theme=startkit
-Version: 19.3
+Version: 19.4
 Tested up to: 6.8
 Requires PHP: 5.6
 Requires at Least: 4.7
@@ -3649,4 +3649,9 @@ a.wp-block-latest-posts__post-title {
 
 .wp-block-post-author img {
     border-radius: 100%;
+}
+
+a.wp-block-button__link:focus {
+	color: #fff;
+	text-decoration: none;
 }
